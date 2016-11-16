@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Taviraj");
+html,body{
+
+	height: 100%;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Taviraj';
+	background-image: url("../style/Login.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin:0 auto;
+}
+
+.header{
+	height: 5%;
+	width: 100%;
+
+	background-color: rgba(0,0,0,0.6);
+
+}
+
+.Title-Image{
+	position: fixed;
+	left: 47%;
+	top: 0;
+	height: 15%;
+	width: 7%;
+	z-index: 5;
+}
+
+.mainpanel{
+	color: white;
+	padding: 10px;
+	height: 30%;
+	width: 17%;
+	background-color: rgba(0,0,0,0.6);
+	margin-left: 5%;
+	margin-top:10%; 
+	border-radius: 20px;
+
+}
+.Username{
+	border-radius: 5px;
+	height: 15%;
+	width: 100%;
+
+
+}
+.Battle-Button{
+	height: 20%;
+	width: 100%;
+
+	margin-top: 30%;
+	background-color: #0073B2;
+
+}
+
+.subpanel{
+	padding: 10px;
+	height: 30%;
+	width: 17%;
+	background-color: rgba(0,0,0,0.6);
+	margin-left: 5%;
+	margin-top:1%; 
+	border-radius: 20px;
+
+}
+
+.TB-Button{
+	height: 20%;
+	width: 100%;
+
+	margin-top: 3%;
+	background-color: #0073B2;
+
+}
+.LADDER-Button{
+	height: 20%;
+	width: 100%;
+
+	margin-top: 3%;
+	background-color: #0073B2;
+
+}
+
+.DB-Button{
+	height: 20%;
+	width: 100%;
+
+	margin-top: 3%;
+	background-color: #0073B2;
+
+}
+
+.login{
+
+	height: 100%;
+	width: 100%;
+
+
+
+}
+
+
+.Tutorial{
+	position: fixed;
+	right: 10%;
+	top: 25%;
+	height: 530PX;
+	width: 650PX;
+	background-color: rgba(0,0,0,0.6);
+	padding: 25PX;
+	border-radius: 20PX;
+
+}
+
+
+.button{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+
+	padding: 10px;
+	padding-left: 10px;
+
+	border-radius: 10px;
+	font-family: 'Taviraj';
+	font-weight: bold;
+}
+a.button{
+	color: black;
+}
+
+.button.active, .button:hover{
+	background-color: #0080ff;
+    border-color: #0080ff;
+    color: white;
+}
+
+
