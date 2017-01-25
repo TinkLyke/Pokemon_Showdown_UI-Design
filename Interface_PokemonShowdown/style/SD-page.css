@@ -1,0 +1,16 @@
+html,body{
+
+	height: 100%;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Taviraj';
+	background-image: url("../style/serverdown.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin:0 auto;
+}
